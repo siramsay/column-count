@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- normalize CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  <title>My New Project</title>
+
+</head>
+
+<body>
+
+<header>
+  Column Count CSS Property Demo
+  <button id="breakToggle" class="toggle-btn">Toggle Break-Inside</button>
+</header>
+
+<main>
+  <h2>Famous People (3 Columns)</h2>
+  <ul class="famous-people">
+    <li>Albert Einstein - Theoretical physicist who developed the theory of relativity</li>
+    <li>Leonardo da Vinci - Renaissance polymath, painter of the Mona Lisa, and inventor</li>
+    <li>William Shakespeare - English playwright and poet, author of Romeo and Juliet</li>
+    <li>Marie Curie - Physicist and chemist, first woman to win a Nobel Prize</li>
+    <li>Nelson Mandela - Anti-apartheid activist and first Black president of South Africa</li>
+    <li>Steve Jobs - Co-founder of Apple Inc. and technology visionary</li>
+    <li>Frida Kahlo - Mexican artist known for her self-portraits and surrealist paintings</li>
+    <li>Martin Luther King Jr. - Civil rights leader and advocate for nonviolent protest</li>
+    <li>Pablo Picasso - Spanish painter and sculptor, co-founder of Cubism</li>
+    <li>Maya Angelou - American poet, memoirist, and civil rights activist</li>
+    <li>Winston Churchill - British Prime Minister during World War II</li>
+    <li>Mahatma Gandhi - Indian independence leader and advocate of nonviolent resistance</li>
+    <li>Vincent van Gogh - Dutch post-impressionist painter known for The Starry Night</li>
+    <li>Mother Teresa - Catholic nun who worked with the poor in Calcutta</li>
+    <li>Ernest Hemingway - American novelist and journalist, Nobel Prize winner in Literature</li>
+  </ul>
+
+  <h2>Image Gallery (3 Columns)</h2>
+  <div class="image-gallery">
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=1" alt="Random Image">
+      <h3>Mountain Landscape</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=2" alt="Random Image">
+      <h3>City Architecture</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=3" alt="Random Image">
+      <h3>Ocean Sunset</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=4" alt="Random Image">
+      <h3>Forest Path</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=5" alt="Random Image">
+      <h3>Desert Dunes</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=6" alt="Random Image">
+      <h3>Urban Street</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=7" alt="Random Image">
+      <h3>Vintage Car</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=8" alt="Random Image">
+      <h3>Abstract Art</h3>
+    </div>
+  </div>
+
+
+  <h2>Mixed Size Gallery (3 Columns)</h2>
+  <div class="mixed-gallery">
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/400?random=10" alt="Portrait Image">
+      <h3>Portrait Study</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/180?random=11" alt="Wide Landscape">
+      <h3>Wide Landscape</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/300?random=17" alt="Landscape">
+      <h3>Beach Scene</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/500?random=12" alt="Tall Portrait">
+      <h3>Tall Building</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/220?random=13" alt="Square-ish Image">
+      <h3>Nature Close-up</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/350?random=14" alt="Medium Portrait">
+      <h3>City Portrait</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/160?random=15" alt="Panoramic">
+      <h3>Panoramic View</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/450?random=16" alt="Tall Portrait">
+      <h3>Waterfall</h3>
+    </div>
+  </div>
+
+
+  <h2>Mixed Size Gallery (3 Columns)</h2>
+  <div class="mixed-gallery">
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/380?random=10&subject=portrait" alt="Portrait Image">
+      <h3>Portrait Study</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/170?random=11&subject=landscape" alt="Wide Landscape">
+      <h3>Wide Landscape</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/520?random=12&subject=architecture" alt="Tall Portrait">
+      <h3>Tall Building</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/240?random=13&subject=nature" alt="Square-ish Image">
+      <h3>Nature Close-up</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/310?random=14&subject=urban" alt="Medium Portrait">
+      <h3>City Portrait</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/150?random=15&subject=water" alt="Panoramic">
+      <h3>Panoramic View</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/480?random=16&subject=abstract" alt="Tall Portrait">
+      <h3>Waterfall</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/300/200?random=17&subject=beach" alt="Landscape">
+      <h3>Beach Scene</h3>
+    </div>
+  </div>
+
+</main>
+
+</body>
+<script src="action.js"></script>
+<!--
+  TLDR: scripts should be asynchronous or deferred until after the first render.
+  https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
+  https://developers.google.com/speed/docs/insights/BlockingJS Put small inline script is necessary
+ -->
+</html>
+
+
+
