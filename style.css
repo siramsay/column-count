@@ -31,7 +31,6 @@ body {
 
 /* Centre everything in the main element */
 main {
-  width: 100vw;
   min-height: 100vh;
   padding: 1rem;
   /*display: flex;
@@ -59,7 +58,7 @@ main {
 }
 
 .gallery-item {
-  /*break-inside: avoid;*/
+  break-inside: avoid; /* Avoid breaking inside the gallery item */
   margin-bottom: 1.5rem;
   background-color: #f9f9f9;
   border-radius: 8px;
@@ -117,4 +116,8 @@ header {
 .no-break-inside .famous-people li,
 .no-break-inside .gallery-item {
   break-inside: auto;
+}
+
+.no-margin .gallery-item {
+  margin-bottom: 0; /* 1.5rem Don't use margin-bottom for Safari */
 }
