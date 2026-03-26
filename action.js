@@ -19,4 +19,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Set initial button text
   toggleBtn.textContent = 'Disable Break-Inside';
+
+
+  const toggleBtnM = document.getElementById('breakToggleM');
+  //const body = document.body;
+  let marginEnabled = true;
+
+  toggleBtnM.addEventListener('click', function() {
+    marginEnabled = !marginEnabled;
+
+    if (marginEnabled) {
+      body.classList.remove('no-margin');
+      toggleBtnM.textContent = 'Disable Margin Bottom';
+    } else {
+      body.classList.add('no-margin');
+      toggleBtnM.textContent = 'Enable Margin Bottom';
+    }
+  });
+
+  // Set initial button text
+  toggleBtnM.textContent = 'Disable Margin Bottom';
+
 });
