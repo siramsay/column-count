@@ -29,6 +29,11 @@ body {
   color: var(--body-color);
 }
 
+p{
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
 /* Centre everything in the main element */
 main {
   min-height: 100vh;
